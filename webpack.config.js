@@ -13,7 +13,6 @@ module.exports = {
     //La ruta de salida de mi archivo
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].main.js',
-    clean: true
   },
   devServer: {
     open: true,
